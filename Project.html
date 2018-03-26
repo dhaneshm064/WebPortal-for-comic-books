@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Marvel Comics</title>
+<link rel="stylesheet" href="cross.css" type="text/css"/>
+
+
+
+</head>
+
+
+<body bgcolor="#000000">
+<header>
+<img id="picture" src="logo.png" alt="Marvel Logo" height="180" width="250">
+<nav>
+<a href="Project.html"><font color="grey">HOME</font></a>
+<a href="comics.html"><font color="grey">COMICS</font></a>
+<a href="characters.html"><font color="grey">CHARACTERS</font></a>
+<a href="index.html"><font color="grey">COMIC-CON</font></a>
+</nav>
+<br><br><br>
+<img id="guard" src="span.jpeg" alt="Guardians" height="400" width=85%>
+</header>
+
+
+<div class="slide" style="max-width:100%">
+<br><br>
+  	<img class="mySlides fade"   src="cap.jpg" height="550" width=1200px; >
+<img class="mySlides fade"   src="hulk.jpg" height="550" width=1200px;>
+<img class="mySlides fade"   src="dead.jpg" height="550" width=1200px;>
+<img class="mySlides fade"   src="iron.jpg" height="550" width=1200px;>
+<img class="mySlides fade"   src="wol.jpg" height="550" width=1200px;>
+<img class="mySlides fade"   src="spid.jpg" height="550" width=1200px;>
+<img class="mySlides fade"   src="venom2.jpg" height="550" width=1200px;>	
+<img class="mySlides fade"   src="hulk2.jpg" height="550" width=1200px;>
+<img class="mySlides fade"   src="aven.jpg" height="550" width=1200px;>
+<img class="mySlides fade"   src="dare2.jpg" height="550" width=1200px;>
+
+</div>
+<br><br><br><br><br>
+
+<p align="right">
+<marquee direction="right"><font face="ravie" color="white">FOLLOW MARVEL</font></marquee>
+<br>
+<a href="https://www.facebook.com/MarvelIndia/?brand_redir=6883542487"><img src="fb2.png" height="35" width="35"></a>
+<a href="https://twitter.com/marvel"><img src="twit.jpg" height="35" width="35"></a>
+<a href="https://www.youtube.com/marvel"><img src="you.jpg" height="35" width="35"></a>
+</p>
+<hr width=100%>
+</div>
+<div align: left>
+<a href="https://marvel.com/corporate/insider_terms"><font color="grey">Terms and Conditions</font></a>
+<a href="http://marvel.com/corporate/about/"><font color="grey">Privacy Policy</font></a>
+<a href="https://marvel.com/corporate/insider_terms"><font color="grey">License Agreement</font></a>
+<a href="http://marvel.com/creditcard?siteCode=MCLAMOFL&cmpid=MCLAMOFL&Dcom=MOLFOOTER"><font color="grey">©2017MARVEL</font></a>
+<div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+</body>
+</html>
+
+
+

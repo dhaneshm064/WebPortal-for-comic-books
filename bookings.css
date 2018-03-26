@@ -1,0 +1,32 @@
+nav{
+margin-top: 0px;
+float: right;
+text-decoration: none;
+margin-right: 300px;
+font-size: 20px;
+font-family: "ravie";
+}
+	a:link, a:visited {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    font-size: 25px;
+text-decoration: overline;
+}
+
+a:hover, a:active {
+    font-size: 24px;
+text-decoration: overline;
+}
+
+#picture{
+	margin-left: 150px;
+	margin-top: 70px;
+		}

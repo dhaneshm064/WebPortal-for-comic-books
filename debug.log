@@ -1,0 +1,4 @@
+[0410/165412.273:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Coldmay\reports: Access is denied. (0x5)
+[0410/165412.277:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0410/165412.278:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Coldmay\reports: Access is denied. (0x5)
+[0410/165412.323:ERROR:crashpad_client_win.cc(660)] crash server failed to launch, no dump captured

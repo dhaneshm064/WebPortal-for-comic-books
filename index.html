@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  border-radius: 4px;
+  background-color: #000000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+  width: 350px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#head{
+margin-top: 300px;
+float: center;
+}
+
+a{
+text-decoration: none;
+}
+</style>
+</head>
+<body bgcolor="#000000">
+<header>
+<a href="Project.html" >
+<button class="button" ><span><font color="white">BACK</font></span></button></a>
+</header>
+<div id="head" align="center">
+<a href="form.html" ><button class="button" ><span><font color="white">SIGN-UP</font>
+</span></button></a>
+<a href="login.html" ><button class="button" ><span><font color="white">LOG-IN</font></span></button></a>
+</div>
+</body>
+</html>
+
